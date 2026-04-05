@@ -200,3 +200,13 @@ footer {
   font-size: 12px;
   color: #aaa;
 }
+
+.container {
+  text-align: center;
+}
+
+.container p,
+.container h2,
+.container .highlight-list {
+  text-align: center;
+}
