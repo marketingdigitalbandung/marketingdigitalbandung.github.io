@@ -56,18 +56,19 @@ body::before {
   background:
     repeating-radial-gradient(
       circle at center,
-      rgba(0,255,255,0.12) 0px,
-      rgba(0,255,255,0.12) 1px,
-      transparent 1px,
-      transparent 120px
+      rgba(0,255,255,0.2) 0px,
+      rgba(0,255,255,0.2) 2px,
+      transparent 2px,
+      transparent 100px
     ),
     repeating-conic-gradient(
       from 0deg,
-      rgba(0,255,255,0.18) 0deg,
-      rgba(0,255,255,0.18) 1deg,
-      transparent 1deg,
-      transparent 30deg
+      rgba(0,255,255,0.25) 0deg,
+      rgba(0,255,255,0.25) 2deg,
+      transparent 2deg,
+      transparent 25deg
     );
+}
 
   animation: rotateSystem 60s linear infinite;
 }
