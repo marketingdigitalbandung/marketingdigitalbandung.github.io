@@ -87,7 +87,7 @@ html::before {
   inset: 0;
   z-index: -4;
   background: url("ai-blog-960x536.jpg") center/cover no-repeat;
-  opacity: 0.15;
+  opacity: 0.25;
   filter: blur(2px);
 }
 
