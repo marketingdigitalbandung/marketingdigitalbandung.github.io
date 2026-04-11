@@ -283,3 +283,52 @@ footer {
   transform: translateY(-5px) scale(1.02);
   box-shadow: 0 12px 30px rgba(0,0,0,0.3);
 }
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: transparent;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* GRID ARTIKEL */
+.artikel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* CARD */
+.artikel-card {
+  display: block;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: 0.3s ease;
+}
+
+.artikel-card h3 {
+  margin-bottom: 10px;
+}
+
+.artikel-card p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.artikel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
