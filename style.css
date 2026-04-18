@@ -348,3 +348,12 @@ footer {
   margin: 0 10px 10px;
   color: #555;
 }
+
+.artikel-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px 0;
+  display: block;
+}
