@@ -332,3 +332,19 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
+
+
+.artikel-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.artikel-card h3 {
+  margin: 10px;
+}
+
+.artikel-card p {
+  margin: 0 10px 10px;
+  color: #555;
+}
